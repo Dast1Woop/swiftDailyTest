@@ -7,32 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2724D6225876E1E002406CD /* EnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2724D6125876E1E002406CD /* EnumTest.swift */; };
-		C2DCAD7B25761D5F0094C261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCAD7A25761D5F0094C261 /* AppDelegate.swift */; };
-		C2DCAD7D25761D5F0094C261 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCAD7C25761D5F0094C261 /* SceneDelegate.swift */; };
-		C2DCAD7F25761D5F0094C261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DCAD7E25761D5F0094C261 /* ViewController.swift */; };
-		C2DCAD8225761D5F0094C261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DCAD8025761D5F0094C261 /* Main.storyboard */; };
-		C2DCAD8425761D610094C261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DCAD8325761D610094C261 /* Assets.xcassets */; };
-		C2DCAD8725761D610094C261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DCAD8525761D610094C261 /* LaunchScreen.storyboard */; };
-		C2E06B6B258313910008DE47 /* ProtocolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E06B6A258313910008DE47 /* ProtocolTest.swift */; };
+		C21359FA25DF93A300C29FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21359F925DF93A300C29FB3 /* AppDelegate.swift */; };
+		C21359FC25DF93A300C29FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21359FB25DF93A300C29FB3 /* SceneDelegate.swift */; };
+		C21359FE25DF93A300C29FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21359FD25DF93A300C29FB3 /* ViewController.swift */; };
+		C2135A0125DF93A300C29FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21359FF25DF93A300C29FB3 /* Main.storyboard */; };
+		C2135A0325DF93A300C29FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2135A0225DF93A300C29FB3 /* Assets.xcassets */; };
+		C2135A0625DF93A300C29FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2135A0425DF93A300C29FB3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C2724D6125876E1E002406CD /* EnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTest.swift; sourceTree = "<group>"; };
-		C2DCAD7725761D5F0094C261 /* swiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2DCAD7A25761D5F0094C261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2DCAD7C25761D5F0094C261 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2DCAD7E25761D5F0094C261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C2DCAD8125761D5F0094C261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C2DCAD8325761D610094C261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2DCAD8625761D610094C261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C2DCAD8825761D610094C261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2E06B6A258313910008DE47 /* ProtocolTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTest.swift; sourceTree = "<group>"; };
-		C2E135AF25761FD500F3BD48 /* swiftStudy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "swiftStudy copy-Info.plist"; path = "/Users/Dast 1 2/Documents/github/swiftDailyTest/swiftStudy/swiftStudy copy-Info.plist"; sourceTree = "<absolute>"; };
+		C21359F625DF93A300C29FB3 /* swiftMapAndSo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftMapAndSo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21359F925DF93A300C29FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C21359FB25DF93A300C29FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C21359FD25DF93A300C29FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2135A0025DF93A300C29FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2135A0225DF93A300C29FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2135A0525DF93A300C29FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2135A0725DF93A300C29FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2DCAD7425761D5F0094C261 /* Frameworks */ = {
+		C21359F325DF93A300C29FB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,74 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C2DCAD6E25761D5F0094C261 = {
+		C21359ED25DF93A300C29FB3 = {
 			isa = PBXGroup;
 			children = (
-				C2DCAD7925761D5F0094C261 /* swiftStudy */,
-				C2DCAD7825761D5F0094C261 /* Products */,
-				C2E135AF25761FD500F3BD48 /* swiftStudy copy-Info.plist */,
+				C21359F825DF93A300C29FB3 /* swiftMapAndSo */,
+				C21359F725DF93A300C29FB3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C2DCAD7825761D5F0094C261 /* Products */ = {
+		C21359F725DF93A300C29FB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2DCAD7725761D5F0094C261 /* swiftStudy.app */,
+				C21359F625DF93A300C29FB3 /* swiftMapAndSo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2DCAD7925761D5F0094C261 /* swiftStudy */ = {
+		C21359F825DF93A300C29FB3 /* swiftMapAndSo */ = {
 			isa = PBXGroup;
 			children = (
-				C2DCAD7A25761D5F0094C261 /* AppDelegate.swift */,
-				C2DCAD7C25761D5F0094C261 /* SceneDelegate.swift */,
-				C2DCAD7E25761D5F0094C261 /* ViewController.swift */,
-				C2E06B6A258313910008DE47 /* ProtocolTest.swift */,
-				C2724D6125876E1E002406CD /* EnumTest.swift */,
-				C2DCAD8025761D5F0094C261 /* Main.storyboard */,
-				C2DCAD8325761D610094C261 /* Assets.xcassets */,
-				C2DCAD8525761D610094C261 /* LaunchScreen.storyboard */,
-				C2DCAD8825761D610094C261 /* Info.plist */,
+				C21359F925DF93A300C29FB3 /* AppDelegate.swift */,
+				C21359FB25DF93A300C29FB3 /* SceneDelegate.swift */,
+				C21359FD25DF93A300C29FB3 /* ViewController.swift */,
+				C21359FF25DF93A300C29FB3 /* Main.storyboard */,
+				C2135A0225DF93A300C29FB3 /* Assets.xcassets */,
+				C2135A0425DF93A300C29FB3 /* LaunchScreen.storyboard */,
+				C2135A0725DF93A300C29FB3 /* Info.plist */,
 			);
-			path = swiftStudy;
+			path = swiftMapAndSo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2DCAD7625761D5F0094C261 /* swiftStudy */ = {
+		C21359F525DF93A300C29FB3 /* swiftMapAndSo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2DCAD8B25761D610094C261 /* Build configuration list for PBXNativeTarget "swiftStudy" */;
+			buildConfigurationList = C2135A0A25DF93A300C29FB3 /* Build configuration list for PBXNativeTarget "swiftMapAndSo" */;
 			buildPhases = (
-				C2DCAD7325761D5F0094C261 /* Sources */,
-				C2DCAD7425761D5F0094C261 /* Frameworks */,
-				C2DCAD7525761D5F0094C261 /* Resources */,
+				C21359F225DF93A300C29FB3 /* Sources */,
+				C21359F325DF93A300C29FB3 /* Frameworks */,
+				C21359F425DF93A300C29FB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = swiftStudy;
-			productName = swiftStudy;
-			productReference = C2DCAD7725761D5F0094C261 /* swiftStudy.app */;
+			name = swiftMapAndSo;
+			productName = swiftMapAndSo;
+			productReference = C21359F625DF93A300C29FB3 /* swiftMapAndSo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C2DCAD6F25761D5F0094C261 /* Project object */ = {
+		C21359EE25DF93A300C29FB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					C2DCAD7625761D5F0094C261 = {
-						CreatedOnToolsVersion = 12.0.1;
+					C21359F525DF93A300C29FB3 = {
+						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = C2DCAD7225761D5F0094C261 /* Build configuration list for PBXProject "swiftStudy" */;
+			buildConfigurationList = C21359F125DF93A300C29FB3 /* Build configuration list for PBXProject "swiftMapAndSo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,57 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = C2DCAD6E25761D5F0094C261;
-			productRefGroup = C2DCAD7825761D5F0094C261 /* Products */;
+			mainGroup = C21359ED25DF93A300C29FB3;
+			productRefGroup = C21359F725DF93A300C29FB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2DCAD7625761D5F0094C261 /* swiftStudy */,
+				C21359F525DF93A300C29FB3 /* swiftMapAndSo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2DCAD7525761D5F0094C261 /* Resources */ = {
+		C21359F425DF93A300C29FB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DCAD8725761D610094C261 /* LaunchScreen.storyboard in Resources */,
-				C2DCAD8425761D610094C261 /* Assets.xcassets in Resources */,
-				C2DCAD8225761D5F0094C261 /* Main.storyboard in Resources */,
+				C2135A0625DF93A300C29FB3 /* LaunchScreen.storyboard in Resources */,
+				C2135A0325DF93A300C29FB3 /* Assets.xcassets in Resources */,
+				C2135A0125DF93A300C29FB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C2DCAD7325761D5F0094C261 /* Sources */ = {
+		C21359F225DF93A300C29FB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DCAD7F25761D5F0094C261 /* ViewController.swift in Sources */,
-				C2724D6225876E1E002406CD /* EnumTest.swift in Sources */,
-				C2E06B6B258313910008DE47 /* ProtocolTest.swift in Sources */,
-				C2DCAD7B25761D5F0094C261 /* AppDelegate.swift in Sources */,
-				C2DCAD7D25761D5F0094C261 /* SceneDelegate.swift in Sources */,
+				C21359FE25DF93A300C29FB3 /* ViewController.swift in Sources */,
+				C21359FA25DF93A300C29FB3 /* AppDelegate.swift in Sources */,
+				C21359FC25DF93A300C29FB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C2DCAD8025761D5F0094C261 /* Main.storyboard */ = {
+		C21359FF25DF93A300C29FB3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C2DCAD8125761D5F0094C261 /* Base */,
+				C2135A0025DF93A300C29FB3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C2DCAD8525761D610094C261 /* LaunchScreen.storyboard */ = {
+		C2135A0425DF93A300C29FB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C2DCAD8625761D610094C261 /* Base */,
+				C2135A0525DF93A300C29FB3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -175,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C2DCAD8925761D610094C261 /* Debug */ = {
+		C2135A0825DF93A300C29FB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -236,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		C2DCAD8A25761D610094C261 /* Release */ = {
+		C2135A0925DF93A300C29FB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,38 +281,40 @@
 			};
 			name = Release;
 		};
-		C2DCAD8C25761D610094C261 /* Debug */ = {
+		C2135A0B25DF93A300C29FB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5MCKBCJ7H;
-				INFOPLIST_FILE = swiftStudy/Info.plist;
+				INFOPLIST_FILE = swiftMapAndSo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.126.myldast1.swiftStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.126.myldast1.swiftMapAndSo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C2DCAD8D25761D610094C261 /* Release */ = {
+		C2135A0C25DF93A300C29FB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5MCKBCJ7H;
-				INFOPLIST_FILE = swiftStudy/Info.plist;
+				INFOPLIST_FILE = swiftMapAndSo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.126.myldast1.swiftStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.126.myldast1.swiftMapAndSo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2DCAD7225761D5F0094C261 /* Build configuration list for PBXProject "swiftStudy" */ = {
+		C21359F125DF93A300C29FB3 /* Build configuration list for PBXProject "swiftMapAndSo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2DCAD8925761D610094C261 /* Debug */,
-				C2DCAD8A25761D610094C261 /* Release */,
+				C2135A0825DF93A300C29FB3 /* Debug */,
+				C2135A0925DF93A300C29FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2DCAD8B25761D610094C261 /* Build configuration list for PBXNativeTarget "swiftStudy" */ = {
+		C2135A0A25DF93A300C29FB3 /* Build configuration list for PBXNativeTarget "swiftMapAndSo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2DCAD8C25761D610094C261 /* Debug */,
-				C2DCAD8D25761D610094C261 /* Release */,
+				C2135A0B25DF93A300C29FB3 /* Debug */,
+				C2135A0C25DF93A300C29FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C2DCAD6F25761D5F0094C261 /* Project object */;
+	rootObject = C21359EE25DF93A300C29FB3 /* Project object */;
 }

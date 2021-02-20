@@ -16,8 +16,27 @@ class ViewController: UIViewController {
 //        testCmpTuple()
 //        testRangeOperater()
         
-        testArrary()
+//        testArrary()
+        
+        testEnum()
     }
+    
+    func testEnum(){
+        print(#function)
+        var food = FastFood.hamberg(picecs: 3)
+        food = FastFood.drink
+        
+        switch food {
+        case .hamberg(let pieces):
+            print("\(pieces)" + "个鸡翅")
+        case .drink:
+            print("drink")
+        default:
+            print("others")
+        }
+    }
+    
+    
     
     func testArrary(){
         let arr = [8,7,6,5]
