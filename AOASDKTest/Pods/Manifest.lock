@@ -1,0 +1,22 @@
+PODS:
+  - RTLSSensor (1.0.0)
+
+DEPENDENCIES:
+  - RTLSSensor (from `https://github.com/coreaiot/RTLSSensor.git`, tag `1.0.0`)
+
+EXTERNAL SOURCES:
+  RTLSSensor:
+    :git: https://github.com/coreaiot/RTLSSensor.git
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  RTLSSensor:
+    :git: https://github.com/coreaiot/RTLSSensor.git
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  RTLSSensor: 4f8ba88dfe49fe35c899ef54f841f29246f30867
+
+PODFILE CHECKSUM: 3bceefdc0133d6ab5aa48b6f6fdeec71f21a12ad
+
+COCOAPODS: 1.9.1
