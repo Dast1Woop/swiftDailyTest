@@ -204,7 +204,6 @@
 		B6078A591D9BD3130057C965 /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = B60788E11D9BD3110057C965 /* userPosition.png */; };
 		B6078A5A1D9BD3130057C965 /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B60788E21D9BD3110057C965 /* userPosition@2x.png */; };
 		B6078A5C1D9BD33A0057C965 /* localtiles in Resources */ = {isa = PBXBuildFile; fileRef = B6078A5B1D9BD33A0057C965 /* localtiles */; };
-		B6078A5D1D9BD3530057C965 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6108BBF1D5B143400C359A7 /* AMap.bundle */; };
 		B6078A601D9BD5520057C965 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6078A5E1D9BD54D0057C965 /* JavaScriptCore.framework */; };
 		B6078B9C1DA9DFE30057C965 /* AnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6078B851DA9DFE30057C965 /* AnnotationViewController.swift */; };
 		B6078B9D1DA9DFE30057C965 /* LockedAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6078B861DA9DFE30057C965 /* LockedAnnotationViewController.swift */; };
@@ -301,7 +300,6 @@
 		B61087C01D5B0C0E00C359A7 /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = B61086551D5B0C0E00C359A7 /* userPosition.png */; };
 		B61087C11D5B0C0E00C359A7 /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B61086561D5B0C0E00C359A7 /* userPosition@2x.png */; };
 		B6108BBB1D5B0CF200C359A7 /* localtiles in Resources */ = {isa = PBXBuildFile; fileRef = B6108BBA1D5B0CF200C359A7 /* localtiles */; };
-		B6108BC01D5B143500C359A7 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6108BBF1D5B143400C359A7 /* AMap.bundle */; };
 		B6108BD41D5B3A6600C359A7 /* heatMapData.json in Resources */ = {isa = PBXBuildFile; fileRef = B6108BD31D5B3A6600C359A7 /* heatMapData.json */; };
 		B6108C191D5C582400C359A7 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B6108C151D5C582300C359A7 /* icon-72.png */; };
 		B6108C1A1D5C582400C359A7 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6108C161D5C582300C359A7 /* icon-72@2x.png */; };
@@ -464,9 +462,6 @@
 		B6FD94E91D9BC52800E7A2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FD94E11D9BC52800E7A2DA /* LaunchScreen.storyboard */; };
 		B6FD94EA1D9BC52800E7A2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FD94E31D9BC52800E7A2DA /* Main.storyboard */; };
 		B6FD94EC1D9BC52800E7A2DA /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FD94E61D9BC52800E7A2DA /* ViewController2.swift */; };
-		B6FD95071D9BC73100E7A2DA /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD95041D9BC73100E7A2DA /* AMapFoundationKit.framework */; };
-		B6FD95081D9BC73100E7A2DA /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD95051D9BC73100E7A2DA /* AMapSearchKit.framework */; };
-		B6FD95091D9BC73100E7A2DA /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD95061D9BC73100E7A2DA /* MAMapKit.framework */; };
 		B6FD950B1D9BCAEA00E7A2DA /* MANaviAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61090A01D641B1200C359A7 /* MANaviAnnotation.m */; };
 		B6FD950D1D9BCAEA00E7A2DA /* MANaviPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = B61090A21D641B1200C359A7 /* MANaviPolyline.m */; };
 		B6FD950F1D9BCAEA00E7A2DA /* MANaviRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = B61090A41D641B1200C359A7 /* MANaviRoute.m */; };
@@ -806,7 +801,6 @@
 		B61086551D5B0C0E00C359A7 /* userPosition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPosition.png; sourceTree = "<group>"; };
 		B61086561D5B0C0E00C359A7 /* userPosition@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userPosition@2x.png"; sourceTree = "<group>"; };
 		B6108BBA1D5B0CF200C359A7 /* localtiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = localtiles; sourceTree = "<group>"; };
-		B6108BBF1D5B143400C359A7 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = Frameworks/MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
 		B6108BD31D5B3A6600C359A7 /* heatMapData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heatMapData.json; sourceTree = "<group>"; };
 		B6108C151D5C582300C359A7 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 		B6108C161D5C582300C359A7 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
@@ -1109,9 +1103,6 @@
 		B6FD94E51D9BC52800E7A2DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6FD94E61D9BC52800E7A2DA /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		B6FD94ED1D9BC58700E7A2DA /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
-		B6FD95041D9BC73100E7A2DA /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
-		B6FD95051D9BC73100E7A2DA /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
-		B6FD95061D9BC73100E7A2DA /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		B6FD95171D9BCB1700E7A2DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C1D0B5FDB71C862D0A746031 /* Pods_MAMapKit_3D_Demo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAMapKit_3D_Demo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24F1302269C3B340000B0C8 /* rqstData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rqstData.plist; sourceTree = "<group>"; };
@@ -1156,9 +1147,6 @@
 				B6FD95161D9BCB1000E7A2DA /* CoreTelephony.framework in Frameworks */,
 				B6FD95151D9BCB0A00E7A2DA /* SystemConfiguration.framework in Frameworks */,
 				B6FD95121D9BCAF000E7A2DA /* libz.tbd in Frameworks */,
-				B6FD95091D9BC73100E7A2DA /* MAMapKit.framework in Frameworks */,
-				B6FD95081D9BC73100E7A2DA /* AMapSearchKit.framework in Frameworks */,
-				B6FD95071D9BC73100E7A2DA /* AMapFoundationKit.framework in Frameworks */,
 				EE873B47202384355ADCD936 /* Pods_MAMapKit_3D_Demo_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1170,7 +1158,6 @@
 			isa = PBXGroup;
 			children = (
 				B6FD94DE1D9BC52800E7A2DA /* MAMapKit-3D-Demo-swift */,
-				B6108BBF1D5B143400C359A7 /* AMap.bundle */,
 				B61084D71D5B085100C359A7 /* Resources */,
 				B6108FCB1D641B1200C359A7 /* MAMapKit_3D_Demo */,
 				B61084A11D59D72800C359A7 /* Frameworks */,
@@ -2274,7 +2261,6 @@
 			children = (
 				B6078BD01DAA58000057C965 /* Utility */,
 				B60784511D9BD1A40057C965 /* Resources */,
-				B6FD95031D9BC73100E7A2DA /* Frameworks */,
 				B6FD94EE1D9BC5D100E7A2DA /* samples */,
 				D9D1F06C1E1B860D00489082 /* Xibs */,
 				B6FD94ED1D9BC58700E7A2DA /* Swift-Bridging-Header.h */,
@@ -2310,16 +2296,6 @@
 			);
 			path = samples;
 			sourceTree = "<group>";
-		};
-		B6FD95031D9BC73100E7A2DA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B6FD95041D9BC73100E7A2DA /* AMapFoundationKit.framework */,
-				B6FD95051D9BC73100E7A2DA /* AMapSearchKit.framework */,
-				B6FD95061D9BC73100E7A2DA /* MAMapKit.framework */,
-			);
-			path = Frameworks;
-			sourceTree = SOURCE_ROOT;
 		};
 		C1B8A9965FF4E3975665D06A /* Pods */ = {
 			isa = PBXGroup;
@@ -2391,6 +2367,7 @@
 				19D2EEC81D59C2920039B22A /* Resources */,
 				D9D1F0681E1B4B1700489082 /* CopyFiles */,
 				958BAE5E043B28502B1EF6BE /* [CP] Embed Pods Frameworks */,
+				582E1A90605121EF2633AEAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2411,6 +2388,7 @@
 				B6FD94AC1D9BC41D00E7A2DA /* Resources */,
 				D9D1F06A1E1B5BFB00489082 /* CopyFiles */,
 				0E64298EC8A9310372579BD0 /* [CP] Embed Pods Frameworks */,
+				C541DB6D362E7F8920C4AAAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2476,7 +2454,6 @@
 				B607940F1DB870980057C965 /* ride@2x.png in Resources */,
 				B61091761D64551F00C359A7 /* compass@2x.png in Resources */,
 				26DA5BB2228C0A310095EEB0 /* default_common_route_startpoint_normal@2x.png in Resources */,
-				B6108BC01D5B143500C359A7 /* AMap.bundle in Resources */,
 				B610865F1D5B0C0E00C359A7 /* arrow_right.png in Resources */,
 				3A1034222154CFF5005A541F /* weather_qing@2x.png in Resources */,
 				26355D8822899A2200B174D1 /* busstate@2x.png in Resources */,
@@ -2585,7 +2562,6 @@
 				B66EF0B31DFFED1E00236C3C /* style_json.json in Resources */,
 				26355DA522899C8200B174D1 /* custtexture_green.png in Resources */,
 				26DA5B8E2289A2C00095EEB0 /* cesupoint@3x.png in Resources */,
-				B6078A5D1D9BD3530057C965 /* AMap.bundle in Resources */,
 				B60785DF1D9BD1A40057C965 /* icon-72@2x.png in Resources */,
 				2690D6CE22800A2B00985F78 /* refresh.png in Resources */,
 				26355DB322899C8200B174D1 /* custtexture_slow_unselected.png in Resources */,
@@ -2727,6 +2703,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		582E1A90605121EF2633AEAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAMapKit_3D_Demo/Pods-MAMapKit_3D_Demo-resources.sh",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAMapKit_3D_Demo/Pods-MAMapKit_3D_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		958BAE5E043B28502B1EF6BE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2749,6 +2743,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAMapKit_3D_Demo/Pods-MAMapKit_3D_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C541DB6D362E7F8920C4AAAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift-resources.sh",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CB8B8878C4F1DC687F527714 /* [CP] Check Pods Manifest.lock */ = {
