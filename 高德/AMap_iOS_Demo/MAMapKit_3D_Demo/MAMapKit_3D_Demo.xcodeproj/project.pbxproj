@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		190E92A81E8A4C6B00802E5E /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61084A41D59D73C00C359A7 /* MAMapKit.framework */; };
 		19DD43351DAA3C4100991F7D /* AnimatedAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD43341DAA3C4100991F7D /* AnimatedAnnotation.m */; };
 		19DD43411DAA4D2E00991F7D /* AnimatedAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD433A1DAA4D2E00991F7D /* AnimatedAnnotationView.m */; };
 		19DD43421DAA4D2E00991F7D /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD433C1DAA4D2E00991F7D /* CustomAnnotationView.m */; };
@@ -155,7 +154,6 @@
 		6AC1981620245693005D28C9 /* RoutePlanTruckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC1981520245693005D28C9 /* RoutePlanTruckViewController.m */; };
 		6AC19819202456C0005D28C9 /* DistanceSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC19818202456C0005D28C9 /* DistanceSearchViewController.m */; };
 		814B79591DD5807F0080FB64 /* NearbyVewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B79581DD5807F0080FB64 /* NearbyVewController.m */; };
-		A8C35B77D5D0B1CD16683B2E /* Pods_MAMapKit_3D_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD36B3EE486434F370A728E /* Pods_MAMapKit_3D_Demo.framework */; };
 		B60785DD1D9BD1A40057C965 /* heatMapData.json in Resources */ = {isa = PBXBuildFile; fileRef = B60784521D9BD1A40057C965 /* heatMapData.json */; };
 		B60785DE1D9BD1A40057C965 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B60784531D9BD1A40057C965 /* icon-72.png */; };
 		B60785DF1D9BD1A40057C965 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B60784541D9BD1A40057C965 /* icon-72@2x.png */; };
@@ -265,8 +263,6 @@
 		B607940F1DB870980057C965 /* ride@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6078E171DB86FAA0057C965 /* ride@2x.png */; };
 		B60B69D01DED71CA0097B65F /* MovingAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B69CF1DED71CA0097B65F /* MovingAnnotationViewController.swift */; };
 		B60B69D31DED72DA0097B65F /* MovingAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B69D21DED72DA0097B65F /* MovingAnnotationViewController.m */; };
-		B61084A51D59D73C00C359A7 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61084A21D59D73C00C359A7 /* AMapFoundationKit.framework */; };
-		B61084A61D59D73C00C359A7 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61084A31D59D73C00C359A7 /* AMapSearchKit.framework */; };
 		B61084AD1D59D8D700C359A7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61084AC1D59D8D700C359A7 /* CoreTelephony.framework */; };
 		B61084B11D59D90500C359A7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61084B01D59D90500C359A7 /* CoreLocation.framework */; };
 		B61084BB1D59D9C800C359A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61084BA1D59D9C800C359A7 /* SystemConfiguration.framework */; };
@@ -611,7 +607,6 @@
 		3AC98C0C1F7CA73A00D69676 /* download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download@2x.png"; sourceTree = "<group>"; };
 		3AC98C0D1F7CA73A00D69676 /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
 		43B0612A9C27911ED08199EC /* Pods-MAMapKit-3D-Demo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapKit-3D-Demo-swift.release.xcconfig"; path = "Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift.release.xcconfig"; sourceTree = "<group>"; };
-		4CD36B3EE486434F370A728E /* Pods_MAMapKit_3D_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAMapKit_3D_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F17A1902354A44E009C1342 /* HeatMapVectorOverlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeatMapVectorOverlayViewController.h; sourceTree = "<group>"; };
 		4F17A1912354A44E009C1342 /* HeatMapVectorOverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeatMapVectorOverlayViewController.m; sourceTree = "<group>"; };
 		4F17A1932354A54B009C1342 /* honeycomb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = honeycomb.txt; sourceTree = "<group>"; };
@@ -763,9 +758,6 @@
 		B60B69CF1DED71CA0097B65F /* MovingAnnotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingAnnotationViewController.swift; sourceTree = "<group>"; };
 		B60B69D11DED72DA0097B65F /* MovingAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingAnnotationViewController.h; sourceTree = "<group>"; };
 		B60B69D21DED72DA0097B65F /* MovingAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingAnnotationViewController.m; sourceTree = "<group>"; };
-		B61084A21D59D73C00C359A7 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = Frameworks/AMapFoundationKit.framework; sourceTree = "<group>"; };
-		B61084A31D59D73C00C359A7 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = Frameworks/AMapSearchKit.framework; sourceTree = "<group>"; };
-		B61084A41D59D73C00C359A7 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = Frameworks/MAMapKit.framework; sourceTree = "<group>"; };
 		B61084AA1D59D8D000C359A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B61084AC1D59D8D700C359A7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		B61084B01D59D90500C359A7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -1122,7 +1114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190E92A81E8A4C6B00802E5E /* MAMapKit.framework in Frameworks */,
 				B6AB18EA1E76753D00180CC3 /* GLKit.framework in Frameworks */,
 				B61084CD1D59F43500C359A7 /* libc++.tbd in Frameworks */,
 				B61084BF1D59DA0400C359A7 /* libz.tbd in Frameworks */,
@@ -1130,9 +1121,6 @@
 				B61084BB1D59D9C800C359A7 /* SystemConfiguration.framework in Frameworks */,
 				B61084B11D59D90500C359A7 /* CoreLocation.framework in Frameworks */,
 				B61084AD1D59D8D700C359A7 /* CoreTelephony.framework in Frameworks */,
-				B61084A61D59D73C00C359A7 /* AMapSearchKit.framework in Frameworks */,
-				B61084A51D59D73C00C359A7 /* AMapFoundationKit.framework in Frameworks */,
-				A8C35B77D5D0B1CD16683B2E /* Pods_MAMapKit_3D_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1558,11 +1546,7 @@
 				B61084B01D59D90500C359A7 /* CoreLocation.framework */,
 				B61084AC1D59D8D700C359A7 /* CoreTelephony.framework */,
 				B61084AA1D59D8D000C359A7 /* UIKit.framework */,
-				B61084A21D59D73C00C359A7 /* AMapFoundationKit.framework */,
-				B61084A31D59D73C00C359A7 /* AMapSearchKit.framework */,
-				B61084A41D59D73C00C359A7 /* MAMapKit.framework */,
 				C1D0B5FDB71C862D0A746031 /* Pods_MAMapKit_3D_Demo_swift.framework */,
-				4CD36B3EE486434F370A728E /* Pods_MAMapKit_3D_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

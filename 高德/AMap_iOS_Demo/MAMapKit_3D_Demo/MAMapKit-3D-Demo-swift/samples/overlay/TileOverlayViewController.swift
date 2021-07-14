@@ -8,7 +8,7 @@
 
 import UIKit
 
-let kURL4TileOverlayLevel0 = "https://dev.indoormap.huatugz.com/xyztiles/a11y/{z}/{x}/{y}.png"
+let kURL4TileOverlayLevel0 = "https://dev.indoormap.huatugz.com/xyztiles/a11y/{z}/{x}/{y}.png?tileSize=512&scale=2"
 
 class TileOverlayViewController: UIViewController,  MAMapViewDelegate {
     
