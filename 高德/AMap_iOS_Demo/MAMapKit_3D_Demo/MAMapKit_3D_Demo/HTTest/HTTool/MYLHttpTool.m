@@ -19,7 +19,6 @@
     
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
     
-    /** 驻军接口需要对请求序列化，文坤的不能序列化！！！ */
     /** 请求方式：POST，调用接口时需要设置Content-Type头部为：application/json
      `AFJSONRequestSerializer` is a subclass of `AFHTTPRequestSerializer` that encodes parameters as JSON using `NSJSONSerialization`, setting the `Content-Type` of the encoded request to `application/json`.
      */

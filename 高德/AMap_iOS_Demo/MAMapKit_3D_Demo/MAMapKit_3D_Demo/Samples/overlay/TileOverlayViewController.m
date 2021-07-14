@@ -11,9 +11,9 @@
 #import "LocalTileOverlay.h"
 
 //MARK: remote setting
-//static NSString *const kTileOverlayRemoteServerTemplate = @"https://dev.indoormap.huatugz.com/xyztiles/a11y/{z}/{x}/{y}.png";
+static NSString *const kUrl4TileOverlay = @"https://dev.indoormap.huatugz.com/xyztiles/a11y/{z}/{x}/{y}.png";
 
-static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaCities_Community_BaseMap_ENG/BeiJing_Community_BaseMap_ENG/MapServer/tile/{z}/{y}/{x}";
+//static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaCities_Community_BaseMap_ENG/BeiJing_Community_BaseMap_ENG/MapServer/tile/{z}/{y}/{x}";
 
 #define kTileOverlayRemoteMinZ      4
 #define kTileOverlayRemoteMaxZ      20
@@ -23,7 +23,8 @@ static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgis
 #define kTileOverlayLocalMaxZ       13
 
 
-@interface TileOverlayViewController ()<MAMapViewDelegate>
+@interface TileOverlayViewController ()<MAMapViewDelegate
+,UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong) MAMapView *mapView;
 @property (nonatomic, strong) MATileOverlay *tileOverlay;
@@ -34,44 +35,37 @@ static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgis
 
 #pragma mark - Utility
 
-- (MATileOverlay *)constructTileOverlayWithType:(NSInteger)type
+- (MATileOverlay *)constructTileOverlayWithUrl:(NSString *)url
 {
     MATileOverlay *tileOverlay = nil;
-    if (type == 0)
-    {
-        tileOverlay = [[LocalTileOverlay alloc] init];
-        tileOverlay.minimumZ = kTileOverlayLocalMinZ;
-        tileOverlay.maximumZ = kTileOverlayLocalMaxZ;
-
-    }
-    else // type == 1
-    {
-        tileOverlay = [[MATileOverlay alloc] initWithURLTemplate:kTileOverlayRemoteServerTemplate];
-        
-        /* minimumZ 是tileOverlay的可见最小Zoom值. */
-        tileOverlay.minimumZ = kTileOverlayRemoteMinZ;
-        /* minimumZ 是tileOverlay的可见最大Zoom值. */
-        tileOverlay.maximumZ = kTileOverlayRemoteMaxZ;
-        
-        /* boundingMapRect 是用来 设定tileOverlay的可渲染区域. */
-        tileOverlay.boundingMapRect = MAMapRectWorld;
-    }
+    tileOverlay = [[MATileOverlay alloc] initWithURLTemplate:url];
+    
+    /* minimumZ 是tileOverlay的可见最小Zoom值. */
+    tileOverlay.minimumZ = kTileOverlayRemoteMinZ;
+    /* minimumZ 是tileOverlay的可见最大Zoom值. */
+    tileOverlay.maximumZ = kTileOverlayRemoteMaxZ;
+    
+    /* boundingMapRect 是用来 设定tileOverlay的可渲染区域. */
+    tileOverlay.boundingMapRect = MAMapRectWorld;
     
     return tileOverlay;
 }
 
-- (void)addTileOverlay
-{
+- (void)addTileOverlayWithUrl:(NSString *)url{
     /* 删除之前的楼层. */
     [self.mapView removeOverlay:self.tileOverlay];
     
     /* 添加新的楼层. */
-    self.tileOverlay = [self constructTileOverlayWithType:1];
+    self.tileOverlay = [self constructTileOverlayWithUrl:url];
     
     [self.mapView addOverlay:self.tileOverlay];
 }
 
 #pragma mark - MAMapViewDelegate
+
+- (void)mapViewRegionChanged:(MAMapView *)mapView{
+    NSLog(@"%s,center:%f,%f", __func__,mapView.centerCoordinate.longitude, mapView.centerCoordinate.latitude);
+}
 
 - (MAOverlayRenderer *)mapView:(MAMapView *)mapView rendererForOverlay:(id <MAOverlay>)overlay
 {
@@ -88,8 +82,21 @@ static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgis
     NSLog(@"zoomLvl:%.1f", mapView.zoomLevel);
 }
 
+-(void)mapView:(MAMapView *)mapView didTouchPois:(NSArray *)pois{
+    NSLog(@"%s", __func__);
+}
+
+-(void)mapView:(MAMapView *)mapView didSingleTappedAtCoordinate:(CLLocationCoordinate2D)coordinate{
+    NSLog(@"%s", __func__);
+}
+
 - (void)returnAction {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+//MARK:delegate 4 ges
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer{
+    return YES;
 }
 
 #pragma mark - Life Cycle
@@ -117,13 +124,33 @@ static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgis
 //    self.mapView.showsBuildings = NO;
     
     [self.view addSubview:self.mapView];
+    
+    [self.mapView setCenterCoordinate:CLLocationCoordinate2DMake(23.11623425763484, 113.32610067743077) animated:YES];
+    
+    [self addTapGes];
+}
+
+- (void)addTapGes{
+    UITapGestureRecognizer *tapG = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapG:)];
+    [self.mapView addGestureRecognizer:tapG];
+}
+
+- (void)tapG:(UITapGestureRecognizer *)tap{
+    static BOOL isOddTap = YES;
+    if (isOddTap) {
+        [self addTileOverlayWithUrl:kUrl4TileOverlay];
+    }else{
+        [self addTileOverlayWithUrl:[kUrl4TileOverlay stringByAppendingString:@"?tileSize=512&scale=2"]];
+    }
+    
+    isOddTap = !isOddTap;
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
     
-    [self addTileOverlay];
+    [self addTileOverlayWithUrl:kUrl4TileOverlay];
 }
 
 - (void)viewWillAppear:(BOOL)animated
