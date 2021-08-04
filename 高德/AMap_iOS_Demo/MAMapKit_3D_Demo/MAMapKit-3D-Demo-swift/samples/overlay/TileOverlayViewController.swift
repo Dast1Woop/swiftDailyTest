@@ -58,7 +58,7 @@ class TileOverlayViewController: UIViewController,  MAMapViewDelegate {
         updateTileOverlay()
     }
     
-    func buildOverlay(urlTemplate:String) -> MATileOverlay! {
+    func creatOverlay(urlTemplate:String) -> MATileOverlay! {
         var tileOverlay:MATileOverlay!
         tileOverlay = MATileOverlay.init(urlTemplate: urlTemplate)
         tileOverlay.minimumZ = 4;
@@ -98,7 +98,7 @@ class TileOverlayViewController: UIViewController,  MAMapViewDelegate {
         self.mapView.remove(self.tileOverlay)
         
         /* 添加新的楼层. */
-        self.tileOverlay = self.buildOverlay(urlTemplate: kURL4TileOverlayLevel0 )
+        self.tileOverlay = self.creatOverlay(urlTemplate: kURL4TileOverlayLevel0 )
         
         self.mapView.add(self.tileOverlay)
     }

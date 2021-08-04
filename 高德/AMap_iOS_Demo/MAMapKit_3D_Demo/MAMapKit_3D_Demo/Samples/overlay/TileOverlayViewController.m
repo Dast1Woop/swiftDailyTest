@@ -11,9 +11,8 @@
 #import "LocalTileOverlay.h"
 
 //MARK: remote setting
-static NSString *const kUrl4OutDoorTile = @"https://dev.indoormap.huatugz.com/xyztiles/a11y/{z}/{x}/{y}.png?tileSize=512&scale=2";
 static NSString *const kUrl4IndoorTileBeginningPart = @"https://dev.indoormap.huatugz.com/xyztiles/";
-static NSString *const kUrl4IndoorTileEndPart = @"/{z}/{x}/{y}.png?tileSize=512&scale=2";
+static NSString *const kUrl4IndoorTileEndPart = @"indoor/{z}/{x}/{y}.png?tileSize=512&scale=2&floorId=";
 
 //static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaCities_Community_BaseMap_ENG/BeiJing_Community_BaseMap_ENG/MapServer/tile/{z}/{y}/{x}";
 
@@ -25,8 +24,7 @@ static NSString *const kUrl4IndoorTileEndPart = @"/{z}/{x}/{y}.png?tileSize=512&
 #define kTileOverlayLocalMaxZ       13
 
 
-@interface TileOverlayViewController ()<MAMapViewDelegate
-,UIGestureRecognizerDelegate>
+@interface TileOverlayViewController ()<MAMapViewDelegate>
 
 @property (nonatomic, strong) MAMapView *mapView;
 @property (nonatomic, strong) MATileOverlay *tileOverlay;
@@ -94,9 +92,9 @@ static NSString *const kUrl4IndoorTileEndPart = @"/{z}/{x}/{y}.png?tileSize=512&
     
     static BOOL isOddTap = YES;
     if (isOddTap) {
-        [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,@"hongtai-f0",kUrl4IndoorTileEndPart]];
+        [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,kUrl4IndoorTileEndPart,@"1"]];
     }else{
-        [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,@"hongtai-f1",kUrl4IndoorTileEndPart]];
+        [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,kUrl4IndoorTileEndPart,@"2"]];
     }
     
     isOddTap = !isOddTap;
@@ -104,11 +102,6 @@ static NSString *const kUrl4IndoorTileEndPart = @"/{z}/{x}/{y}.png?tileSize=512&
 
 - (void)returnAction {
     [self.navigationController popViewControllerAnimated:YES];
-}
-
-//MARK:delegate 4 ges
-- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer{
-    return YES;
 }
 
 #pragma mark - Life Cycle
@@ -145,15 +138,15 @@ static NSString *const kUrl4IndoorTileEndPart = @"/{z}/{x}/{y}.png?tileSize=512&
     CLLocationDistance log = 113.416927;
     [self.mapView setCenterCoordinate:CLLocationCoordinate2DMake(lat, log) animated:YES];
     
-    MATileOverlay *outDoorTile = [self creatTileOverlayWithUrl:kUrl4OutDoorTile];
-    [self.mapView addOverlay:outDoorTile level:MAOverlayLevelAboveRoads];
+//    MATileOverlay *outDoorTile = [self creatTileOverlayWithUrl:kUrl4OutDoorTile];
+//    [self.mapView addOverlay:outDoorTile level:MAOverlayLevelAboveRoads];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
     
-    [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,@"hongtai-f0",kUrl4IndoorTileEndPart]];
+    [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,kUrl4IndoorTileEndPart,@"0"]];
 }
 
 - (void)viewWillAppear:(BOOL)animated
