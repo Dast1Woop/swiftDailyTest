@@ -14,10 +14,10 @@
 static NSString *const kUrl4IndoorTileBeginningPart = @"https://dev.indoormap.huatugz.com/xyztiles/";
 static NSString *const kUrl4IndoorTileEndPart = @"indoor/{z}/{x}/{y}.png?tileSize=512&scale=2&floorId=";
 
-//static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaCities_Community_BaseMap_ENG/BeiJing_Community_BaseMap_ENG/MapServer/tile/{z}/{y}/{x}";
+static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaCities_Community_BaseMap_ENG/BeiJing_Community_BaseMap_ENG/MapServer/tile/{z}/{y}/{x}";
 
 #define kTileOverlayRemoteMinZ      4
-#define kTileOverlayRemoteMaxZ      20
+#define kTileOverlayRemoteMaxZ      17
 
 //MARK: local setting
 #define kTileOverlayLocalMinZ       11
@@ -93,8 +93,12 @@ static NSString *const kUrl4IndoorTileEndPart = @"indoor/{z}/{x}/{y}.png?tileSiz
     static BOOL isOddTap = YES;
     if (isOddTap) {
         [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,kUrl4IndoorTileEndPart,@"1"]];
+        
+//        [self updateTileOverlayWithUrl:kTileOverlayRemoteServerTemplate];
     }else{
         [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,kUrl4IndoorTileEndPart,@"2"]];
+        
+//        [self updateTileOverlayWithUrl:kTileOverlayRemoteServerTemplate];
     }
     
     isOddTap = !isOddTap;
