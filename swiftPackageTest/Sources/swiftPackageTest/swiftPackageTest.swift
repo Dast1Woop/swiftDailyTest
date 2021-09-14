@@ -7,6 +7,8 @@ public struct swiftPackageTest {
         person.hi()
     }
     
+    public init() {}
+    
     public func add(num1:Int, num2:Int) -> Int {
         return num1 + num2
     }
