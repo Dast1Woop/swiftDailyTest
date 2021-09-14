@@ -14,10 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let test = swiftPackageTest()
-        test.hi()
+        view.backgroundColor = .yellow
     }
 
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let test = swiftPackageTest()
+        test.sayHi()
+    }
 }
 
