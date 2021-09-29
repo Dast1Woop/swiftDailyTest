@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C351D626A57AABCEE931BC0 /* Pods_WifiAutoConnectTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6F010C5E37AEAE5DC38BE2 /* Pods_WifiAutoConnectTest.framework */; };
+		C2C0AF952703FB6E00399658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C0AF942703FB6E00399658 /* AppDelegate.swift */; };
+		C2C0AF992703FB6E00399658 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C0AF982703FB6E00399658 /* ViewController.swift */; };
+		C2C0AF9E2703FB7100399658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C0AF9D2703FB7100399658 /* Assets.xcassets */; };
+		C2C0AFA12703FB7100399658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C0AF9F2703FB7100399658 /* LaunchScreen.storyboard */; };
+		C2C0AFAD2703FC4A00399658 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C0AFAC2703FC4A00399658 /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12151E4E8CA34F14273C9DD0 /* Pods-WifiAutoConnectTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiAutoConnectTest.debug.xcconfig"; path = "Target Support Files/Pods-WifiAutoConnectTest/Pods-WifiAutoConnectTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AD6F010C5E37AEAE5DC38BE2 /* Pods_WifiAutoConnectTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WifiAutoConnectTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C0AF912703FB6E00399658 /* WifiAutoConnectTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiAutoConnectTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C0AF942703FB6E00399658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2C0AF982703FB6E00399658 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2C0AF9D2703FB7100399658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2C0AFA02703FB7100399658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2C0AFA22703FB7100399658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C0AFAA2703FC4900399658 /* WifiAutoConnectTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WifiAutoConnectTest.entitlements; sourceTree = "<group>"; };
+		C2C0AFAC2703FC4A00399658 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		E848ACC45582CD487C21A104 /* Pods-WifiAutoConnectTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifiAutoConnectTest.release.xcconfig"; path = "Target Support Files/Pods-WifiAutoConnectTest/Pods-WifiAutoConnectTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2C0AF8E2703FB6E00399658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C0AFAD2703FC4A00399658 /* NetworkExtension.framework in Frameworks */,
+				0C351D626A57AABCEE931BC0 /* Pods_WifiAutoConnectTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2C0AF882703FB6E00399658 = {
+			isa = PBXGroup;
+			children = (
+				C2C0AF932703FB6E00399658 /* WifiAutoConnectTest */,
+				C2C0AF922703FB6E00399658 /* Products */,
+				C2C0AFAB2703FC4A00399658 /* Frameworks */,
+				FF7DA28532B797D14DBFDDBA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C2C0AF922703FB6E00399658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2C0AF912703FB6E00399658 /* WifiAutoConnectTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2C0AF932703FB6E00399658 /* WifiAutoConnectTest */ = {
+			isa = PBXGroup;
+			children = (
+				C2C0AFAA2703FC4900399658 /* WifiAutoConnectTest.entitlements */,
+				C2C0AF942703FB6E00399658 /* AppDelegate.swift */,
+				C2C0AF982703FB6E00399658 /* ViewController.swift */,
+				C2C0AF9D2703FB7100399658 /* Assets.xcassets */,
+				C2C0AF9F2703FB7100399658 /* LaunchScreen.storyboard */,
+				C2C0AFA22703FB7100399658 /* Info.plist */,
+			);
+			path = WifiAutoConnectTest;
+			sourceTree = "<group>";
+		};
+		C2C0AFAB2703FC4A00399658 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2C0AFAC2703FC4A00399658 /* NetworkExtension.framework */,
+				AD6F010C5E37AEAE5DC38BE2 /* Pods_WifiAutoConnectTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7DA28532B797D14DBFDDBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12151E4E8CA34F14273C9DD0 /* Pods-WifiAutoConnectTest.debug.xcconfig */,
+				E848ACC45582CD487C21A104 /* Pods-WifiAutoConnectTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2C0AF902703FB6E00399658 /* WifiAutoConnectTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C0AFA52703FB7100399658 /* Build configuration list for PBXNativeTarget "WifiAutoConnectTest" */;
+			buildPhases = (
+				F9B704233E611730FF21FE00 /* [CP] Check Pods Manifest.lock */,
+				C2C0AF8D2703FB6E00399658 /* Sources */,
+				C2C0AF8E2703FB6E00399658 /* Frameworks */,
+				C2C0AF8F2703FB6E00399658 /* Resources */,
+				76322AD08E2CA785D9631EAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiAutoConnectTest;
+			productName = WifiAutoConnectTest;
+			productReference = C2C0AF912703FB6E00399658 /* WifiAutoConnectTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2C0AF892703FB6E00399658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C2C0AF902703FB6E00399658 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C2C0AF8C2703FB6E00399658 /* Build configuration list for PBXProject "WifiAutoConnectTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2C0AF882703FB6E00399658;
+			productRefGroup = C2C0AF922703FB6E00399658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2C0AF902703FB6E00399658 /* WifiAutoConnectTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2C0AF8F2703FB6E00399658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C0AFA12703FB7100399658 /* LaunchScreen.storyboard in Resources */,
+				C2C0AF9E2703FB7100399658 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76322AD08E2CA785D9631EAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WifiAutoConnectTest/Pods-WifiAutoConnectTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WifiAutoConnectTest/Pods-WifiAutoConnectTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WifiAutoConnectTest/Pods-WifiAutoConnectTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B704233E611730FF21FE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WifiAutoConnectTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C0AF8D2703FB6E00399658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C0AF992703FB6E00399658 /* ViewController.swift in Sources */,
+				C2C0AF952703FB6E00399658 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2C0AF9F2703FB7100399658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C0AFA02703FB7100399658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2C0AFA32703FB7100399658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2C0AFA42703FB7100399658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2C0AFA62703FB7100399658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12151E4E8CA34F14273C9DD0 /* Pods-WifiAutoConnectTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WifiAutoConnectTest/WifiAutoConnectTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTUCTZC4VF;
+				INFOPLIST_FILE = WifiAutoConnectTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myl.com.WifiAutoConnectTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2C0AFA72703FB7100399658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E848ACC45582CD487C21A104 /* Pods-WifiAutoConnectTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WifiAutoConnectTest/WifiAutoConnectTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTUCTZC4VF;
+				INFOPLIST_FILE = WifiAutoConnectTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myl.com.WifiAutoConnectTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2C0AF8C2703FB6E00399658 /* Build configuration list for PBXProject "WifiAutoConnectTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C0AFA32703FB7100399658 /* Debug */,
+				C2C0AFA42703FB7100399658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C0AFA52703FB7100399658 /* Build configuration list for PBXNativeTarget "WifiAutoConnectTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C0AFA62703FB7100399658 /* Debug */,
+				C2C0AFA72703FB7100399658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2C0AF892703FB6E00399658 /* Project object */;
+}
