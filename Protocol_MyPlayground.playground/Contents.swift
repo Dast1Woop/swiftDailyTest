@@ -5,9 +5,10 @@ protocol Bird:CustomStringConvertible {
   var canFly: Bool { get }
 }
 
+//where用法：1.扩展系统协议 2.泛型的元素判等
 extension CustomStringConvertible where Self:Bird{
     var description: String{
-        canFly ? "I can fly" : "I cannot fly"
+        canFly ? "I can fly" : "I cannot· fly"
     }
 }
 
