@@ -1,0 +1,24 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+
+
+#不可少！否则报错：cannot load underlying module for 'Rswift'
+target 'R.swiftModuleTest' do
+end
+
+target 'RswiftLib' do
+  pod 'R.swift', '~> 6.1.0'
+end
+
+target 'LibA' do
+  #不可少！否则报错：cannot load underlying module for 'Rswift'
+  pod 'R.swift', '~> 6.1.0'
+end
+
+target 'LibB' do
+  #不可少！否则报错：cannot load underlying module for 'Rswift'
+  pod 'R.swift', '~> 6.1.0'
+end
+
+
