@@ -1,0 +1,23 @@
+//
+//  ViewController.swift
+//  #UnavailableTest
+//
+//  Created by LongMa on 2022/3/9.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        if #available(iOS 13, *){
+            
+        }
+        
+    }
+
+
+}
+
