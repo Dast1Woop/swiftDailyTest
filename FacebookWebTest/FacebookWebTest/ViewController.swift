@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("fadfasf")
         
-        let suggestionWebVC = MYCommonWebVC.init(title: NSLocalizedString("意见栏", comment: ""), url: "https://www.dsat.gov.mo/dsat/suggestion.aspx")
+        let suggestionWebVC = MYCommonWebVC.init(title: NSLocalizedString("意见栏", comment: ""), url: "http://www.baidu.com/s?&wd=%E8%A5%BF%E7%93%9C")
         addChild(suggestionWebVC)
         view.addSubview(suggestionWebVC.view)
         
