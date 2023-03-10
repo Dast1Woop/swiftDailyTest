@@ -39,8 +39,8 @@ class ViewController: UIViewController {
          
          AVAudioSessionCategoryPlayBack: Your Audio continues with the Silent switch set to silent or when the screen locks
          */
-        try! AVAudioSession.sharedInstance().setCategory(.playback)
-        
+        try! AVAudioSession.sharedInstance().setCategory(.playback, options: [.duckOthers,.interruptSpokenAudioAndMixWithOthers])
+
         let soundURL = Bundle.main.url(forResource: "shakestart", withExtension: "mp3")!
         
         do {
