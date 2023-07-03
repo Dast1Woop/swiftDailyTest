@@ -28,6 +28,14 @@
     }
     
     [AMapServices sharedServices].apiKey = (NSString *)APIKey;
+    
+    [MAMapView updatePrivacyShow:AMapPrivacyShowStatusDidShow privacyInfo:AMapPrivacyInfoStatusDidContain];
+    [MAMapView updatePrivacyAgree:AMapPrivacyAgreeStatusDidAgree];
+
+    //此处不设置也能正常搜索
+    [AMapSearchAPI updatePrivacyShow:AMapPrivacyShowStatusDidShow privacyInfo:AMapPrivacyInfoStatusDidContain];
+    [AMapSearchAPI updatePrivacyAgree:AMapPrivacyAgreeStatusDidAgree];
+    
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

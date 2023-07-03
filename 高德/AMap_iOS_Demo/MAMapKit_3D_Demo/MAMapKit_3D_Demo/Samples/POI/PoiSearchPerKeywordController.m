@@ -191,9 +191,9 @@
 {
     AMapPOIKeywordsSearchRequest *request = [[AMapPOIKeywordsSearchRequest alloc] init];
     request.keywords = keyword;
-    request.city = @"北京";
-    request.requireSubPOIs      = YES;
-    request.requireExtension = YES;
+//    request.city = @"广州";
+//    request.requireSubPOIs      = YES;
+//    request.requireExtension = YES;
     request.offset = 50;
     
     __weak typeof(self) weakSelf = self;
@@ -281,11 +281,11 @@
             
             remainReq.types = self.firstReq.types;
             remainReq.sortrule = self.firstReq.sortrule;
-            remainReq.building = self.firstReq.building;
+//            remainReq.building = self.firstReq.building;
             remainReq.page = i;
             remainReq.offset = self.firstReq.offset;
-            remainReq.requireSubPOIs = self.firstReq.requireSubPOIs;
-            remainReq.requireExtension = self.firstReq.requireExtension;
+//            remainReq.requireSubPOIs = self.firstReq.requireSubPOIs;
+//            remainReq.requireExtension = self.firstReq.requireExtension;
             
             [self.searchAPI AMapPOIKeywordsSearch:remainReq];
         }

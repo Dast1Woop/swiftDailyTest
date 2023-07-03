@@ -127,7 +127,7 @@
     AMapPOIIDSearchRequest *request = [[AMapPOIIDSearchRequest alloc] init];
     
     request.uid                 = poiId;
-    request.requireExtension    = YES;
+//    request.requireExtension    = YES;
     
     [self.search AMapPOIIDSearch:request];
     

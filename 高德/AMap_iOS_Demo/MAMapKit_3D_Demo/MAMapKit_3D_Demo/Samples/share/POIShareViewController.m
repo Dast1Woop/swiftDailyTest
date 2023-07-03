@@ -84,7 +84,7 @@
     AMapPOIIDSearchRequest *request = [[AMapPOIIDSearchRequest alloc] init];
     
     request.uid                 = @"B000A7ZQYC";
-    request.requireExtension    = YES;
+//    request.requireExtension    = YES;
     
     [self.search AMapPOIIDSearch:request];
     

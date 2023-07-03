@@ -92,7 +92,7 @@
     
     AMapInputTipsSearchRequest *tips = [[AMapInputTipsSearchRequest alloc] init];
     tips.keywords = key;
-    tips.city     = @"北京";
+//    tips.city     = @"北京";
     //    tips.cityLimit = YES; 是否限制城市
     
     [self.search AMapInputTipsSearch:tips];
@@ -132,7 +132,7 @@
         
         request.keywords         = tip.name;
         request.city             = @"北京";
-        request.requireExtension = YES;
+//        request.requireExtension = YES;
         [self.search AMapPOIKeywordsSearch:request];
     }
 }

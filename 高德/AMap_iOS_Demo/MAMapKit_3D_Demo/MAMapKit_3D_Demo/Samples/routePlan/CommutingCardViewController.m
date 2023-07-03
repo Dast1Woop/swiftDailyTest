@@ -100,7 +100,7 @@ static const NSString *RoutePlanningViewControllerDestinationTitle = @"终点";
     if (_type == CommutingCardTypeBus) {
         [self searchRoutePlanningBus];
     }else if (_type == CommutingCardTypeDrive){
-        [self searchRoutePlanningDrive];
+//        [self searchRoutePlanningDrive];
     }
 }
 
@@ -126,8 +126,8 @@ static const NSString *RoutePlanningViewControllerDestinationTitle = @"终点";
 
 #pragma mark - do search
 - (void)searchRoutePlanningDrive{
-    AMapDrivingRouteSearchRequest *navi = [[AMapDrivingRouteSearchRequest alloc] init];
-    navi.requireExtension = YES;
+    AMapDrivingCalRouteSearchRequest *navi = [[AMapDrivingCalRouteSearchRequest alloc] init];
+//    navi.requireExtension = YES;
     /* 出发点. */
     navi.strategy = 10;
     navi.origin = [AMapGeoPoint locationWithLatitude:self.startCoordinate.latitude
@@ -135,13 +135,13 @@ static const NSString *RoutePlanningViewControllerDestinationTitle = @"终点";
     /* 目的地. */
     navi.destination = [AMapGeoPoint locationWithLatitude:self.destinationCoordinate.latitude
                                                 longitude:self.destinationCoordinate.longitude];
-    
-    [self.search AMapDrivingRouteSearch:navi];
+
+    [self.search  AMapDrivingV2RouteSearch:navi];
 }
 - (void)searchRoutePlanningBus{
     AMapTransitRouteSearchRequest *navi = [[AMapTransitRouteSearchRequest alloc] init];
     navi.strategy = 5;
-    navi.requireExtension = YES;
+//    navi.requireExtension = YES;
     navi.city             = @"beijing";
     /* 出发点. */
     navi.origin = [AMapGeoPoint locationWithLatitude:self.startCoordinate.latitude

@@ -101,9 +101,9 @@ static const NSInteger RoutePlanningPaddingEdge                    = 20;
     self.startAnnotation.coordinate = self.startCoordinate;
     self.destinationAnnotation.coordinate = self.destinationCoordinate;
     
-    AMapDrivingRouteSearchRequest *navi = [[AMapDrivingRouteSearchRequest alloc] init];
-    
-    navi.requireExtension = YES;
+    AMapDrivingCalRouteSearchRequest *navi = [[AMapDrivingCalRouteSearchRequest alloc] init];
+
+//    navi.requireExtension = YES;
 //    navi.destinationId = @"BV10001595";
 //    navi.destinationtype = @"150500";
     navi.strategy = 10;
@@ -113,8 +113,8 @@ static const NSInteger RoutePlanningPaddingEdge                    = 20;
     /* 目的地. */
     navi.destination = [AMapGeoPoint locationWithLatitude:self.destinationCoordinate.latitude
                                                 longitude:self.destinationCoordinate.longitude];
-    
-    [self.search AMapDrivingRouteSearch:navi];
+
+    [self.search AMapDrivingV2RouteSearch:navi];
 }
 
 

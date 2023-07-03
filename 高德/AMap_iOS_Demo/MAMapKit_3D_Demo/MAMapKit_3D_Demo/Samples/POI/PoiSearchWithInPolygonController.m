@@ -131,7 +131,7 @@
     
     request.polygon             = polygon;
     request.keywords            = @"Apple";
-    request.requireExtension    = YES;
+//    request.requireExtension    = YES;
     
     [self.search AMapPOIPolygonSearch:request];
 }

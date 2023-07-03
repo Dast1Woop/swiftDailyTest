@@ -101,7 +101,7 @@ static const NSInteger RoutePlanningPaddingEdge                    = 20;
     
     AMapTransitRouteSearchRequest *navi = [[AMapTransitRouteSearchRequest alloc] init];
     
-    navi.requireExtension = YES;
+//    navi.requireExtension = YES;
     navi.city             = @"呼和浩特";
     navi.destinationCity  = @"农安县";
     
