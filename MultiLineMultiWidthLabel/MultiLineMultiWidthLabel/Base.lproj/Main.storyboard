@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MultiLineMultiWidthLabel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="m11-ir-z4V">
+                                <rect key="frame" x="53" y="248" width="300" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="D9C-cg-vHU"/>
+                                    <constraint firstAttribute="height" constant="200" id="bUT-Ie-Wa1"/>
+                                </constraints>
+                                <mutableString key="text">首先，這篇文章善於運用白描的手法。全文集中描寫的，是父親在特定場合下使作者極為感動的那一個背影。作者用簡直質樸不加任何修飾的文字在特定的環境之下將父親那寬大又沉重的背影充分表現出來，從而深切地表現了兒子對父親的憐惜與關愛之情。作者寫了當時父親的體態、穿着打扮，更主要地寫了買橘子時穿過鐵路的情形，並不藉助於什麼修飾、陪襯之類，只把當時的情景再現於眼前。雖然只是區區幾個字，但卻把老父親的是個胖子的體型表現出來，父親是個胖子，由此可見父親為我跨鐵道，爬月台買橘子是多麼的困難，但他還是為兒子去買了橘子，由此便可以看出父親對兒子的關愛之深，是一種濃烈的深切的父愛。這種白描的文字，讀起來清淡質樸，卻情真味濃，藴藏着一段深情，即所謂於平淡中見神奇。其次，這篇文章還有很多的地方運用了側面烘托的手法來表現父子間的真情真意。例如，“我”心裏暗笑他的迂，他們只認得錢，託他們也是白託。父親可能知道託他們也是白託，但是他一心只為自己的兒子着想。通過兒子的言語來側面烘托出父親對兒子的任勞任怨以及一種無私的父愛。當父親買完橘子並且抱着橘子朝我走來的時候，“我”趕緊去攙他。一個“攙”字用的惟妙惟肖，父親的背影顯得那麼的無力而沉重，卻依然堅持給“我”買橘子，從“我”的表現側面烘托出父親對“我”無私的關愛，以及“我”被父親的行為所感動，以及報答不了父親對“我”的愛的心酸。這些側面烘托手法的運用，更加反襯出父親愛子的動人力量。最後，這篇文章還運用了多重動作描寫和心理描寫，例如在要不要送“我”去車站的時候，父親的躊躇顯示父親在猶豫，但最後父親還是不放心“我”，並決定親自送“我”去火車站。這裏足以體現父親對“我”無私的愛以及關懷。以及在後文中寫父親幫“我”買橘子時，需要穿過鐵道，爬上月台又要跳下來，這過程如此繁瑣，但父親還是去做了，可見父親對兒子滿滿的愛意，一個為子女任勞任怨的老父親形象頓時躍然紙上</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test" translatesAutoresizingMaskIntoConstraints="NO" id="sf3-X0-ZGs">
+                                <rect key="frame" x="239" y="323" width="114" height="125"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sf3-X0-ZGs" firstAttribute="trailing" secondItem="m11-ir-z4V" secondAttribute="trailing" id="8tj-rb-pAA"/>
+                            <constraint firstItem="m11-ir-z4V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="189" id="G4l-Es-jA8"/>
+                            <constraint firstItem="sf3-X0-ZGs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="239" id="MwG-hl-jwn"/>
+                            <constraint firstItem="m11-ir-z4V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="pCH-3v-3EB"/>
+                            <constraint firstItem="sf3-X0-ZGs" firstAttribute="bottom" secondItem="m11-ir-z4V" secondAttribute="bottom" id="xpW-Fh-QWR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgV" destination="sf3-X0-ZGs" id="J3e-Ns-QOr"/>
+                        <outlet property="textView" destination="m11-ir-z4V" id="Gw5-Uz-bSa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-49.295774647887328"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="test" width="159" height="125"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
